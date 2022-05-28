@@ -6,3 +6,6 @@
 # Things to keep in mind
 whichever route starts with /api will be directed to .NET Api code
 rest of all the routes will give react static files 
+
+# Change Project Name after Clonning
+Install via dotnet tool install -g ModernRonin.ProjectRenamer, see github.com/ModernRonin/ProjectRenamer for documentation
