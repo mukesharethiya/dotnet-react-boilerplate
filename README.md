@@ -8,4 +8,6 @@ whichever route starts with /api will be directed to .NET Api code
 rest of all the routes will give react static files 
 
 # Change Project Name after Clonning
-Install via dotnet tool install -g ModernRonin.ProjectRenamer, see github.com/ModernRonin/ProjectRenamer for documentation
+Change Root Folder Name and .csproj file name and .vscode directory, 
+
+after that run dotnet restore to generate bin and obj folder, also when opening with vs code you will get your .vscode directory back with new project name
